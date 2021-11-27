@@ -4,7 +4,7 @@ astunparse
 cachetools
 certifi
 charset-normalizer
-Django
+Django==3.1.1
 flatbuffers
 gast
 google-auth
@@ -37,7 +37,7 @@ sqlparse
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
-tensorflow
+tensorflow==2.3.1
 tensorflow-estimator
 tensorflow-hub
 tensorflow-io-gcs-filesystem

@@ -10,7 +10,7 @@ from tensorflow.keras import Model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import layers
-from keras import optimizers
+from tensorflow.keras import optimizers
 import numpy as np
 import json
 

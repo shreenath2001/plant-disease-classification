@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/bg1.380bf945bc07.jpg");
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1.0; */
+    height: 100vh;
+    object-fit: contain;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.heading {
+    margin-top: 100px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+form {
+    margin-top: 5vh;
+}
+
+#file {
+    display: none;
+}
+
+img {
+    width: 250px;
+    border-radius: 5%;
+}
+
+.image-text {
+    border: 3px solid goldenrod;
+    background-color: rgb(223, 28, 14);
+    border-radius: 5%;
+    padding: 15px 10px;
+    color: white;
+}
+
+#classify {
+    margin: auto;
+    display: none;
+}
+
+.spinner-border {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: url("../img/bg2.c17cf96e1e96.jpg");
+    }
+}
